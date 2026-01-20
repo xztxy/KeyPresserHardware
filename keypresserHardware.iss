@@ -2,8 +2,8 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 ; Non-commercial use only
 
-#define MyAppName "KeyPresser硬件版"
 #define MyAppVersion "1.0"
+#define MyAppName "KeyPresser硬件版"
 #define MyAppPublisher "Finn Wang"
 #define MyAppURL "https://github.com/wang161113"
 #define MyAppExeName "KeyPresserHardware.exe"
@@ -37,7 +37,7 @@ DisableProgramGroupPage=yes
 ; Uncomment the following line to run in non administrative install mode (install for current user only).
 ;PrivilegesRequired=lowest
 OutputDir=D:\selfPrj\KeyPresserHardware
-OutputBaseFilename=KeyPresser硬件版
+OutputBaseFilename=KeyPresser硬件版{#MyAppVersion}
 SetupIconFile=D:\selfPrj\KeyPresserHardware\keypresser.ico
 SolidCompression=yes
 WizardStyle=modern dynamic
