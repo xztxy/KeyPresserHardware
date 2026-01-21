@@ -36,9 +36,9 @@ ChangesAssociations=yes
 DisableProgramGroupPage=yes
 ; Uncomment the following line to run in non administrative install mode (install for current user only).
 ;PrivilegesRequired=lowest
-OutputDir=D:\selfPrj\KeyPresserHardware
+OutputDir=.\KeyPresserHardware
 OutputBaseFilename=KeyPresser硬件版{#MyAppVersion}
-SetupIconFile=D:\selfPrj\KeyPresserHardware\keypresser.ico
+SetupIconFile=.\KeyPresserHardware\keypresser.ico
 SolidCompression=yes
 WizardStyle=modern dynamic
 
@@ -49,8 +49,8 @@ Name: "chinesesimplified"; MessagesFile: "compiler:Languages\ChineseSimplified.i
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"
 
 [Files]
-Source: "D:\selfPrj\KeyPresserHardware\build\Desktop_Qt_5_15_2_MSVC2019_64bit-Release\release\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\selfPrj\KeyPresserHardware\build\Desktop_Qt_5_15_2_MSVC2019_64bit-Release\release\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs; Excludes: "*.obj,*.cpp"
+Source: ".\KeyPresserHardware\build\Desktop_Qt_5_15_2_MSVC2019_64bit-Release\release\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: ".\KeyPresserHardware\build\Desktop_Qt_5_15_2_MSVC2019_64bit-Release\release\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs; Excludes: "*.obj,*.cpp"
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Registry]
